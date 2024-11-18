@@ -3,5 +3,41 @@ h1{
 }
 
 .background-image{
-    opacity: 80%;
+    opacity: 50%;
+}
+
+.banner-wrap {
+    background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-bottom: 10px solid #222;
+    position: relative;
+    z-index: 1;
+}
+.overlay {
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 60%;
+    position: absolute;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #ffc107;
+    text-align: center;
+    padding: 10px;
 }
