@@ -1,13 +1,45 @@
 import {
     bootstrap/dist/css/bootstrap.min.css};
 
-.background-image{
+.background-image{ 
     opacity: 50%;
 }
 
 .bg-image{
     background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
 }
+
+header {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img{
+    width: 80px;
+  }
+  
+  .search-bar{
+    display: flex;
+    align-items: center;
+  }
+  .search-bar input{
+    padding: 8px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    flex-grow: 1;
+  }
+
+
+
+
 .banner-wrap {
     background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
     background-size: cover;

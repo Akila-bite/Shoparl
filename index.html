@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Shoparl-Proto</title>
   </head>
   <header class="p-5 text-white">
@@ -26,25 +27,29 @@
   </header>
   <body>
       <div class="banner-wrap vh-100 vw-100 text-green">
-        <div class bg-image></div>
+        <div class="bg-image"></div>
         <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">
-          <h1 class="display-1">I am Akhil Boddu</h1>
-          <p class="lead">Fullstack Developer, Coding instructor. Enterpreneur</p>
+          <h1 class="display-1">Start The New Year With A New Planner</h1>
+          <p class="lead">Grab a Cute 2025 Planner, To Keep You Going and Creative</p>
         </main>
       </div>
+      
+      <!-- A hidden sidebar, activated when hovering over the list icon -->
+       <!-- When open, the sidebar shows the list of products available -->
+      <div class="navigation-sidebar"></div>
     
     <!-- Eye catching collection of the 2025 Doodle Planners
     Display them first before going far into the website, as they are a new item/release -->
-    <div id="carouselbooksfade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div id="carouselbooksfade" class="carousel slide carousel-fade align-items-center justify-content-center" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-12.jpg?v=1726688522&width=990" class="d-block w-100" alt="Planners Lined Up">
+            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-12.jpg?v=1726688522&width=990" class="d-block w-80" alt="Planners Lined Up">
           </div>
           <div class="carousel-item">
-            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-6.jpg?v=1728524694&width=990" class="d-block w-100" alt="Picnic Gingham">
+            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-6.jpg?v=1728524694&width=990" class="d-block w-80" alt="Picnic Gingham">
           </div>
           <div class="carousel-item">
-            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-8.jpg?v=1728524711&width=990" class="d-block w-100" alt="Academy Plaid">
+            <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-8.jpg?v=1728524711&width=990" class="d-block w-80" alt="Academy Plaid">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
