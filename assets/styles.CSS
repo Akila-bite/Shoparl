@@ -1,11 +1,13 @@
-h1{
-    text-align: center;
-}
+import {
+    bootstrap/dist/css/bootstrap.min.css};
 
 .background-image{
     opacity: 50%;
 }
 
+.bg-image{
+    background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
+}
 .banner-wrap {
     background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
     background-size: cover;
