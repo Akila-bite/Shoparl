@@ -1,62 +1,105 @@
 
 
-.background-image{ 
-    opacity: 50%;
-}
-
-.bg-image{
-    background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
-}
 
 header {
-    background-color: rgb(255, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 10px;
+    color: black;
+    padding: 0px;
   }
   
   .navbar {
-    display: flex;
+    display: fixed;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(249, 205, 146);
+
   }
   
   .logo img{
-    width: 80px;
+    max-height: 60px;
   }
   
-  .search-bar{
-    display: flex;
-    align-items: center;
-  }
-  .search-bar input{
-    padding: 8px;
-    margin-right: 5px;
-    border: none;
-    border-radius: 4px;
-    flex-grow: 1;
-  }
-
 
 
 
 .banner-wrap {
-    background-image: url(https://shoparl.co/cdn/shop/files/2025DoodlePlanner-9.jpg?v=1728524739&width=990);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-bottom: 10px solid #222;
+    object-fit: cover;
     position: relative;
-    z-index: 1;
-}
-.overlay {
     z-index: -1;
-    height: 100%;
-    width: 100%;
-    background: black;
-    opacity: 60%;
-    position: absolute;
-    top: 0;
+    padding:
+
 }
+
+
+body{
+    background-color:bisque
+}
+
+.section{
+  height: 100vh;
+  width: 100%;
+  padding: 3rem 4rem;
+  box-sizing: border-box;
+}
+
+/* .section1 { 
+  position:relative; 
+} */
+
+.video-container {
+    position:relative;
+  
+}
+.overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:0;
+  }
+.display-1{
+  color:darkgreen;
+  font-size: 20px;
+  align-self: center;
+  z-index: 1;
+}
+
+
+
+  /* Style the video: 100% width and height to cover the entire window  */
+  #myVideo {
+    object-fit: cover;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    z-index: -1,
+  }
+  
+
+  /* Add some content at the bottom of the video/page */
+  /* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } */
+  
+  /* Style the button used to pause/play the video */
+  /* #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  } */
 
 
 
