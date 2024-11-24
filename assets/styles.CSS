@@ -9,8 +9,15 @@ body{
 
 
 header {
-    color: black;
     padding: 0px;
+    height: 100px;
+    z-index: 10;
+    display: block;
+    position: relative;
+    top: 0%;
+    
+
+
   }
   
   .navbar {
@@ -51,13 +58,13 @@ header {
 
 
 
-.banner-wrap {
+/* .banner-wrap {
     object-fit: cover;
     position: relative;
     z-index: -1;
     padding:
 
-}
+} */
 
 
 body{
@@ -97,9 +104,33 @@ body{
     position: relative;
     overflow:hidden;
     min-height: 100vh;
+    margin-top: 100px;
+    z-index: 1;
+
   }
 
-  .bg-image{
+  .display-1{
+    z-index: 1;
+  }
+
+  .lead:{
+    z-index: 1;
+  }
+
+
+
+  .video-container{
+    display:inline;
+    z-index: -1;
+    position: relative;
+  }
+
+  .video{
+    object-fit: fill;
+  }
+
+
+  /* .bg-image{
     src: url(2025DoodlePlanner-9blue.jpg);
     position: absolute;
     top: 0;
@@ -107,7 +138,7 @@ body{
     min-width: 100%;
     min-height: 100%;
     z-index: 0;
-  }
+  } */
 
   .button {
     border: none;
@@ -134,16 +165,20 @@ body{
     padding: 20px;
   } */
   
-  .column {
+  .column1 {
     float: left;
     width: 33.33%;
   }
   
   /* Clear floats after the columns */
-  .row:after {
+  .row1:after {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .container2{
+    padding-top: 100px;
   }
 
 
