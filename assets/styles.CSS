@@ -96,38 +96,54 @@ body{
   } */
 
   .hero{
-    display: center;
-    justify-content: center;
-    text-align: center;
-    color: olive;
+   
+    /* color: olive; */
     margin-bottom: 100px;
     position: relative;
     overflow:hidden;
     min-height: 100vh;
     margin-top: 100px;
-    z-index: 1;
+   height: 100vh;
+   overflow: hidden;
+
 
   }
 
-  .display-1{
+  .hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: 1;
   }
 
-  .lead:{
-    z-index: 1;
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
   }
 
 
 
-  .video-container{
+ 
+
+
+
+  /* .video-container{
     display:inline;
     z-index: -1;
     position: relative;
-  }
+  } */
 
-  .video{
+  /* .video{
     object-fit: fill;
-  }
+  } */
 
 
   /* .bg-image{
