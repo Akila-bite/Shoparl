@@ -65,20 +65,15 @@ li{
   } */
 
   /* Styles for the search bar */
-  .search-bar {
-    margin-left: auto;
-    display: flex;
-    border: 10px;
-    background: transparent;
-    cursor: pointer;
-    color: olive;
-    padding: 5px;
-  }
   
   .search-bar input {
-    padding: 0px;
+    /* padding: 0px; */
     border: 1px solid olive;
     border-radius: 3px;
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
   }
   
   .custom-search {
@@ -160,17 +155,21 @@ li{
   }
 
 
-  .section2{
-    margin-bottom: 100px;
-    position: relative;
-    overflow:hidden;
-   
-  }
+ 
+
+
 
 
  /* Styles for the about section */
  /* The card styling makes it easy to incoporate a compelling image of the owner next to some things she would like to say to her customers */
-  .about-card {
+  
+ .section2{
+  margin-bottom: 100px;
+  position: relative;
+  overflow:hidden;
+ }
+
+ .about-card {
     display: flex;
     background: #fff;
     border-radius: 8px;
@@ -200,6 +199,8 @@ li{
     font-weight: 500;
   }
 
+
+/* Styling the social media section */
   .section3{
     margin-top: 30px;
     margin-bottom: 30px;
