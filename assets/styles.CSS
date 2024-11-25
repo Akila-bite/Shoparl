@@ -1,6 +1,6 @@
 
 body{
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: Montserrat Alternates, sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color:bisque;
@@ -25,7 +25,7 @@ header {
   .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     background-color: rgb(249, 205, 146);
 
   }
@@ -61,24 +61,23 @@ header {
   .search-bar {
     margin-left: auto;
     display: flex;
-    align-items: center;
   }
   
   .search-bar input {
-    padding: 5px;
+    padding: 0px;
     border: 1px solid olive;
     border-radius: 3px;
   }
   
-  .search-bar button {
-    border: none;
-    background: none;
+  .search-bar {
+    border: 10px;
+    background: transparent;
     cursor: pointer;
-    color: bisque;
+    color: olive;
     padding: 5px;
   }
 
-  .search-bar button i {
+  .search-bar i {
     font-size: 16px;
   }
 
@@ -91,18 +90,17 @@ header {
   box-sizing: border-box;
 }
 
-/* .section1 { 
-  position:relative; 
-} */
+ .section1 { 
+  position:relative;
+  margin-bottom: 30px;
+  width: 100%;
+} 
 
 
-
-
- /* Styles for everything in the hero section (media and text) */
+/* Styles for everything in the hero section (media and text) */
 
   .hero{
-   
-    /* color: olive; */
+   /* color: olive; */
     margin-bottom: 100px;
     position: relative;
     overflow:hidden;
@@ -111,7 +109,8 @@ header {
    height: 100vh;
    }
 
-  .hero-video {
+  /* This video of the retractable pencil case in the home page shows the kind of creativity shoppers should expect */
+   .hero-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -121,6 +120,7 @@ header {
     z-index: 1;
   }
 
+ /* The overlay allows the user to see the video, with some blur to make the writing over it readable */
   .hero .overlay {
     position: absolute;
     top: 0%;
@@ -135,32 +135,102 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* color: rgb(58, 58, 1); */
     color: white;
     text-align: center;
     z-index: 2;
     font-weight: bolder;
   }
 
+  /* The display class for the hero text makes it pop out to the user as they open the website */
   .display-1{
     font-weight: bold;
   }
 
   .lead{
     font-weight: 600;
+    text-decoration: underline;
+    color: white;
+  }
+
+/* Styling section2 layout of rows and columns */
+ .column {
+    float: left;
+    width: 33.33%;
+  } 
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+
+  .section2{
+    /* margin-bottom: 100px; */
+    position: relative;
+    overflow:hidden;
+   
   }
 
 
 
+ /* Styles for the about section */
+ /* The card styling makes it easy to incoporate a compelling image of the owner next to some things she would like to say to her customers */
+  .about-card {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+  }
+  .about-card img {
+    width: 40%;
+    object-fit: cover;
+  }
+  .about-content {
+    padding: 20px;
+    width: 60%;
+  }
+  .about-content h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  .about-content p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: olive;
+    line-height: 1.75;
+    font-weight: 500;
+  }
+
+  .section3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
 
 
  
+/* styles for the shopping.html page */
+
+.container2{
+  margin-top: 30px;
+}
+
+.product-link{
+  text-decoration: none;
+  color: saddlebrown;
+  font-weight: 500;
+
+}
 
 
 
-
-/* Styles for the shopping page */
-.button {
+/* Styles for the button on the product cards */
+/* a .button {
     border:saddlebrown;
     color:olive;
     padding: 16px 32px;
@@ -170,28 +240,46 @@ header {
     font-size: 16px;
     margin: 4px 2px;
     transition-duration: 0.4s;
-    cursor: pointer;}
-  
+    cursor: pointer;} */
+
+/* Styles for product cards */
+
+.card-title{
+ font-family: ;
+ font-weight: 600;
+}
+
+.card .card-text{
+  font-family: Montserrat Alternates, sans-serif;
+
+}
+
+.card-body{
+  background-color: transparent;
+
+}
+
+ .button {
+  padding: 10px 20px;
+  border: 2px solid; /* Border width, style, and color */
+  border-radius: 5px;        /* Rounded corners (optional) */
+  background-color: olivedrab;  /* Button background */
+  color: black;
+  cursor: pointer;          /* Pointer cursor on hover */
+  text-decoration: none;
+
+}
+
+ .button:hover {
+  background-color: white; /* Change background on hover */
+  color: olivedrab;              /* Change text color on hover */
+}
 
   
 
  
   
-  .column1 {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
-  .container2{
-    padding-top: 100px;
-  }
 
 
 
@@ -207,6 +295,7 @@ footer {
     color: black;
     text-align: center;
     padding: 10px;
+    font-family: sans-serif;
 }
 
 /* Styling for the newsletter form */
