@@ -152,18 +152,6 @@ header {
     color: white;
   }
 
-/* Styling section2 layout of rows and columns */
- .column {
-    float: left;
-    width: 33.33%;
-  } 
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  } 
 
   .section2{
     /* margin-bottom: 100px; */
@@ -172,6 +160,17 @@ header {
    
   }
 
+  .column1 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 
  /* Styles for the about section */
@@ -217,7 +216,7 @@ header {
 /* styles for the shopping.html page */
 
 .container2{
-  margin-top: 30px;
+  margin-top: 100px;
 }
 
 .product-link{
