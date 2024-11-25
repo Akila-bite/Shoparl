@@ -1,6 +1,7 @@
 
+
 body{
-  font-family: Montserrat Alternates, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color:bisque;
@@ -59,10 +60,6 @@ li{
     border-bottom-color: #fff;
   }
   
-  /* .logo img{
-    max-height: 30px;
-    object-fit: contain;
-  } */
 
   .logo img {
     height: 50px;
@@ -222,6 +219,7 @@ li{
 
 .container2{
   margin-top: 100px;
+  font-family:  "Montserrat Alternates", sans-serif;
 }
 
 .product-link{
@@ -253,15 +251,6 @@ li{
  font-weight: 600;
 }
 
-.card .card-text{
-  font-family: Montserrat Alternates, sans-serif;
-
-}
-
-.card-body{
-  background-color: transparent;
-
-}
 
  .button {
   padding: 10px 20px;
