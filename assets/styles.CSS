@@ -8,27 +8,31 @@ body{
 
 
 
-header {
+ header {
     padding: 0px;
-    height: 100px;
+    height: 50px;
     z-index: 10;
     display: block;
     position: relative;
     top: 0%;
-    
+    }
 
-
-  }
 
   /* Styling the navbar, with hover effects, and colour changes when page is active */
   
   .navbar {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    background-color: rgb(249, 205, 146);
+    align-items: center;
+    background-color: rgb(212, 162, 100);
+    /* padding: 30px 10%; */
+    } 
 
-  }
+li{
+  list-style: none;
+    display:inline-block;
+    padding: 0px 20px;
+}
 
   .nav-masthead .nav-link {
     padding: 0.25rem 0;
@@ -37,6 +41,9 @@ header {
     background-color: transparent;
     border-bottom: 0.25rem solid transparent;
   }
+ 
+  
+
   
   .nav-masthead .nav-link:hover,
   .nav-masthead .nav-link:focus {
@@ -61,6 +68,11 @@ header {
   .search-bar {
     margin-left: auto;
     display: flex;
+    border: 10px;
+    background: transparent;
+    cursor: pointer;
+    color: olive;
+    padding: 5px;
   }
   
   .search-bar input {
@@ -69,16 +81,10 @@ header {
     border-radius: 3px;
   }
   
-  .search-bar {
-    border: 10px;
-    background: transparent;
-    cursor: pointer;
-    color: olive;
-    padding: 5px;
-  }
-
-  .search-bar i {
-    font-size: 16px;
+  .custom-search {
+    padding: 5px; 
+    font-size: 12px;
+    height: 10px; 
   }
 
 
@@ -87,13 +93,14 @@ header {
   height: 100vh;
   width: 100%;
   padding: 3rem 4rem;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
  .section1 { 
   position:relative;
   margin-bottom: 30px;
   width: 100%;
+  margin-top: 100px;
 } 
 
 
@@ -105,7 +112,7 @@ header {
     position: relative;
     overflow:hidden;
     min-height: 100vh;
-    margin-top: 100px;
+    margin-top: 30px;;
    height: 100vh;
    }
 
@@ -154,22 +161,10 @@ header {
 
 
   .section2{
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
     position: relative;
     overflow:hidden;
    
-  }
-
-  .column1 {
-    float: left;
-    width: 33.33%;
-  }
-  
-  /* Clear floats after the columns */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both;
   }
 
 
@@ -208,6 +203,10 @@ header {
   .section3{
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  .bi{
+    color: olive;
   }
 
 
@@ -260,7 +259,7 @@ header {
 
  .button {
   padding: 10px 20px;
-  border: 2px solid; /* Border width, style, and color */
+  border: 1px solid; /* Border width, style, and color */
   border-radius: 5px;        /* Rounded corners (optional) */
   background-color: olivedrab;  /* Button background */
   color: black;
