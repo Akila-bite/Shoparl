@@ -3,6 +3,7 @@ body{
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color:bisque;
 }
 
 
@@ -18,9 +19,11 @@ header {
 
 
   }
+
+  /* Styling the navbar, with hover effects, and colour changes when page is active */
   
   .navbar {
-    display: fixed;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(249, 205, 146);
@@ -49,26 +52,37 @@ header {
     border-bottom-color: #fff;
   }
   
-  .logo img{
+  /* .logo img{
     max-height: 30px;
     object-fit: contain;
+  } */
+
+  /* Styles for the search bar */
+  .search-bar {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
   }
   
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid olive;
+    border-radius: 3px;
+  }
+  
+  .search-bar button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: bisque;
+    padding: 5px;
+  }
+
+  .search-bar button i {
+    font-size: 16px;
+  }
 
 
-
-/* .banner-wrap {
-    object-fit: cover;
-    position: relative;
-    z-index: -1;
-    padding:
-
-} */
-
-
-body{
-    background-color:bisque
-}
 
 .section{
   height: 100vh;
@@ -84,15 +98,7 @@ body{
 
 
 
-  /* Style the video: 100% width and height to cover the entire window  */
-  /* .back-video {
-    object-fit: cover;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50%;
-    z-index: -100,
-  } */
+ /* Styles for everything in the hero section (media and text) */
 
   .hero{
    
@@ -103,10 +109,7 @@ body{
     min-height: 100vh;
     margin-top: 100px;
    height: 100vh;
-   overflow: hidden;
-
-
-  }
+   }
 
   .hero-video {
     position: absolute;
@@ -118,15 +121,36 @@ body{
     z-index: 1;
   }
 
+  .hero .overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 1;}
+
   .hero-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    /* color: rgb(58, 58, 1); */
     color: white;
     text-align: center;
     z-index: 2;
+    font-weight: bolder;
   }
+
+  .display-1{
+    font-weight: bold;
+  }
+
+  .lead{
+    font-weight: 600;
+  }
+
+
 
 
 
@@ -134,30 +158,11 @@ body{
 
 
 
-  /* .video-container{
-    display:inline;
-    z-index: -1;
-    position: relative;
-  } */
 
-  /* .video{
-    object-fit: fill;
-  } */
-
-
-  /* .bg-image{
-    src: url(2025DoodlePlanner-9blue.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    min-height: 100%;
-    z-index: 0;
-  } */
-
-  .button {
-    border: none;
-    color: white;
+/* Styles for the shopping page */
+.button {
+    border:saddlebrown;
+    color:olive;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
@@ -170,15 +175,7 @@ body{
 
   
 
-  /* Add some content at the bottom of the video/page */
-  /* .content {
-    position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  } */
+ 
   
   .column1 {
     float: left;
