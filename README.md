@@ -21,5 +21,8 @@ Open index.html in your browser to view the website.
 Repository Link
 Shoparl-Proto on GitHub
 
+## Improvements
+-Location request/detection that will help to automatically convert the prices to the currency of the user's current location
+
 Acknowledgments
 This project was a part of my coding bootcamp journey. As the first assignment. I was inspired by the creativity in Shoparl, which is why I chose it for the assessment.
