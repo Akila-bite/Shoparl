@@ -60,7 +60,7 @@ li{
     border-bottom-color: #fff;
   }
   
-
+/* Adjusting the size of the logo, to fit the navbar we have */
   .logo img {
     height: 50px;
     width: auto;
@@ -78,14 +78,19 @@ li{
     display: flex;
   }
   
-  .custom-search {
-    padding: 5px; 
-    font-size: 12px;
-    height: 10px; 
+  #searchResults a {
+    text-decoration: none;
+    color: blue;
+    margin: 5px 0;
   }
+  
+  #searchResults a:hover {
+    text-decoration: underline;
+  }
+  
 
 
-
+/* Styling the sections, for better alignment of content */
 .section{
   height: 100vh;
   width: 100%;
@@ -247,7 +252,6 @@ li{
 /* Styles for product cards */
 
 .card-title{
- font-family: ;
  font-weight: 600;
 }
 
