@@ -19,8 +19,11 @@
   
     
 </head>
- 
+ <!-- The fixed-top property allows the header to stay at the top when the user scrolls down
+ The header will always be visible -->
 <header class="fixed-top">
+  <!-- A navbar with links taking the user to different parts of the website, 
+  a searchbar and the website logo displayed -->
   <nav class="navbar">
     <div class="logo">
     <img src="https://shoparl.co/cdn/shop/files/Untitled-1.png?v=1705350745&width=180" alt="logo">
@@ -28,7 +31,7 @@
     <nav class="nav nav-masthead justify-content-center float-md-end">
       <ul>
         <li><a class="nav-link active" href="index.html">Home</a></li>
-        <li><a class="nav-link" href="#about">About Me</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
         <li><a class="nav-link" href="shopping.html">Shop</a></li>
       </ul>
     </nav>
@@ -39,29 +42,28 @@
     </header>
   
   <body>
-
-
+   
+    <!-- The hero section contains a video of one of the products
+    Overlay on the video to make the welcome text more visible -->
     <section class="section1 content">
       <div class="hero">
           <video muted loop autoplay class="hero-video"> 
            <source src="https://shoparl.co/cdn/shop/videos/c/vp/e7c5b62c580344869b16004f47c9d059/e7c5b62c580344869b16004f47c9d059.HD-1080p-7.2Mbps-23286809.mp4?v=0" type="video/mp4">
           </video>
           <div class="overlay"></div>
-        <!-- <main class="d-flex flex-column align-items-center justify-content-center h-75 text-center">-->
         <div class="hero-text">
           <h1 class="display-1">Welcome Doodle Squad!</h1>
-          <a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a>
         </div>
       </div>
     </section>
     
 
-    
+  <!-- A simple image + text card, showing the owner and her about -->
   <section class="section2 container" >
           <div class="about-card">
             <img src="assets/Amanda_at_vidcon_Chrome.jpg" alt="About Image">
             <div class="about-content">
-              <h2 id="about">About Me</h2>
+              <h2 id="about">About</h2>
               <p>
                Hi! My name is Amanda, I am an artist and YouTuber based in Toronto, Canada. On my social media platforms, I share content about art and journaling to inspire others to bring more creativity into their daily lives. I started Shop AmandaRachLee to provide distinctive, premium stationery items that I personally design.
                 
@@ -75,18 +77,41 @@
 
   </section>
 
-  <div id="carouselContainer" class="carousel">
+
+<!-- This section has an interactive carousel
+Allows user to see the 2025 Doodle Planners
+Images display how the planners look on the inside -->
+  
+<div id="carouselContainer" class="carousel">
     <!-- Slide 1 -->
     <div class="carousel-slide active">
       <img src="https://shoparl.co/cdn/shop/files/2025DoodlePlanner-12.jpg?v=1726688522&width=990" alt="Slide 1">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>  
     </div>
     <!-- Slide 2 -->
     <div class="carousel-slide">
       <img src="https://shoparl.co/cdn/shop/files/2025_Doodle_Planner_-1.jpg?v=1728524421&width=990" alt="Slide 2">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>
     </div>
     <!-- Slide 3 -->
     <div class="carousel-slide">
       <img src="https://shoparl.co/cdn/shop/files/2025_Doodle_Planner_-39.jpg?v=1728524540&width=990" alt="Slide 3">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>
+    </div>
+     <!-- Slide 4 -->
+     <div class="carousel-slide">
+      <img src="https://shoparl.co/cdn/shop/files/2025_Doodle_Planner_-43.jpg?v=1728524441&width=990" alt="Slide 3">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>
+    </div>
+     <!-- Slide 5 -->
+     <div class="carousel-slide">
+      <img src="https://shoparl.co/cdn/shop/files/2025_Doodle_Planner_-36.jpg?v=1728524933&width=990" alt="Slide 3">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>
+    </div>
+     <!-- Slide 6 -->
+     <div class="carousel-slide">
+      <img src="https://shoparl.co/cdn/shop/files/2025_Doodle_Planner_-53.jpg?v=1728524414&width=990" alt="Slide 3">
+      <div class="carousel-text"><a href="Shopping_Planners.html"><p class="lead">Grab a new Planner, To Keep You Going and Creative in 2025</p></a></div>
     </div>
     <!-- Navigation Buttons -->
     <button id="prevBtn" class="carousel-btn prev">❮</button>
@@ -95,7 +120,7 @@
 <script src="carousel.js"></script>
   
 
-  <!-- Social media section -->
+  <!-- Social media section with links to platforms, represented by icons -->
 <section class="section3 bg-light py-5">
   <div class="container text-center">
     <h2 class="mb-4">Contact Us</h2>
@@ -116,7 +141,8 @@
 </body>
   
   
-  <footer>
+ <!-- This section will include an interactive form that allows the user to signup for the newsletter  -->
+<footer>
     <form id="newsletterForm">
       <div class="container">
         <h2>Join Our Newsletter</h2>
@@ -129,7 +155,6 @@
         <input id="emailInput"type="text" placeholder="Email address" name="email">
         <span id="emailError" class="error"></span>
         <br><br>
-        
       </div>
     
       <div class="container">

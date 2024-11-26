@@ -1,5 +1,6 @@
 
 
+/* Styles applied to entire page */
 body{
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
@@ -20,13 +21,12 @@ body{
 
 
   /* Styling the navbar, with hover effects, and colour changes when page is active */
-  
   .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(212, 162, 100);
-    /* padding: 30px 10%; */
+    padding: 10%;
     } 
 
 li{
@@ -155,19 +155,9 @@ li{
     font-weight: bold;
   }
 
-  .lead{
-    font-weight: 600;
-    text-decoration: underline;
-    color: white;
-  }
-
-
  
 
-
-
-
- /* Styles for the about section */
+/* Styles for the about section */
  /* The card styling makes it easy to incoporate a compelling image of the owner next to some things she would like to say to her customers */
   
  .section2{
@@ -206,19 +196,6 @@ li{
     font-weight: 500;
   }
 
-
-/* Styling the social media section */
-  .section3{
-    margin-top: 100px;
-    margin-bottom: 30px;
-  }
-
-  .bi{
-    color: olive;
-  }
-
-
-
  
 /* styles for the shopping.html page */
 
@@ -235,19 +212,6 @@ li{
 }
 
 
-
-/* Styles for the button on the product cards */
-/* a .button {
-    border:saddlebrown;
-    color:olive;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;} */
 
 /* Styles for product cards */
 
@@ -329,59 +293,42 @@ Carousel container  */
 }
 
 
-
-
-/* Next & previous buttons
-.prev, .next {
-  cursor: pointer;
+.carousel-text {
   position: absolute;
   top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  z-index: 2;
+  width: 100%;
 }
 
-/* Position the "next button" to the right */
-/* .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-} */
+.lead{
+  font-weight: 600;
+  color: white;
+  text-decoration: underline;
+}
 
-/* On hover, add a black background color with a little bit see-through */
-/* .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-} */
+.carousel-slide {
+  position: relative; /* Ensure text positions correctly */
+}
 
-/* Caption text */
-/* .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-} */ 
+/* Styling the social media section */
+.section3{
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.bi{
+  color: olive;
+}
 
 
 
-
-
-
-
-
- 
-  
-
-
-
-
+/* Styling the footer */
 footer {
     background-color: olive;
     color: black;
