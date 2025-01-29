@@ -441,12 +441,6 @@ nav-li{
 main{
     justify-content: space-between
 }
-
-.carousel-container {
-  width: 80%
-  max-width: 1200px;
-  margin: auto;
- }
  .about-section {
   display: flex;
   flex-direction: row;
