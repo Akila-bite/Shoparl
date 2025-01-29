@@ -386,7 +386,7 @@ input[type=submit]:hover {
 
 /* Responsive screen, for different devices */
 
-/* @media (max-width: 600px){
+@media (max-width: 600px){
 header{
     padding: 10px;
 }
@@ -419,9 +419,9 @@ nav-li{
     display: inline-block;
     margin-right: 10px;
 }
-}*/
+}
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -455,7 +455,8 @@ nav-li{
 }
 .carousel-text {
   font-size: 14px; /* Make text smaller */
-}
+}*/
+
 
 @media (min-width: 901px){
 main{
