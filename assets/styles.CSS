@@ -386,7 +386,7 @@ input[type=submit]:hover {
 
 /* Responsive screen, for different devices */
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
 header{
     padding: 10px;
 }
@@ -419,7 +419,44 @@ nav-li{
     display: inline-block;
     margin-right: 10px;
 }
+}*/
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar ul {
+    padding: 0;
+    text-align: center;
+  }
+  .navbar li {
+    display: block;
+    padding: 10px 0;
+  }
 }
+.hero {
+  min-height: auto;
+  padding: 50px 20px; /* Add padding for spacing */
+}
+.about-card {
+  flex-direction: column;
+  text-align: center;
+}
+.about-card img {
+  width: 100%; /* Full width on mobile */
+}
+.about-content {
+  width: 100%;
+  padding: 15px;
+}
+.carousel {
+  max-width: 100%;
+}
+.carousel-text {
+  font-size: 14px; /* Make text smaller */
+}
+
 @media (min-width: 901px){
 main{
     justify-content: space-between;
