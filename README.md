@@ -21,6 +21,8 @@ Open index.html in your browser to view the website.
 Repository Link
 Shoparl-Proto on GitHub
 
+2. Link to deploy the website : https://shoparl-ln-9a8050.netlify.app
+
 ## Improvements
 -Location request/detection that will help to automatically convert the prices to the currency of the user's current location
 
