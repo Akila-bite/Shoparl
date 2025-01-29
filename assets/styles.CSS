@@ -238,7 +238,7 @@ li{
 
 /* Styling for the carousel
 Carousel container  */
-.carousel-container {
+.carousel {
   width: 80%;
   max-width: 1200px;
   margin: auto;
@@ -441,6 +441,11 @@ nav-li{
 main{
     justify-content: space-between
 }
+.carousel {
+  width: 80%
+  max-width: 1200px;
+  margin: auto;
+ }
  .about-section {
   display: flex;
   flex-direction: row;
