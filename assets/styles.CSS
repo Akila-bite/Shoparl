@@ -442,7 +442,7 @@ main{
     justify-content: space-between
 }
 
-.carousel {
+.carousel-container {
   width: 80%
   max-width: 1200px;
   margin: auto;
