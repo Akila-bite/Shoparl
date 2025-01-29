@@ -385,29 +385,6 @@ input[type=submit]:hover {
 
 /* Responsive screen, for different devices */
 
-/*@media (max-width: 600px){
-header{
-    padding: 10px;
-}
-nav{
-    display: none;
-}
-navl ul{
-    text-align: center;
-}
-nav li{
-    display: block;
-    margin-bottom: 10px;
-}
-main{
-    padding: 10px;
-}
-.section{
-    margin: 5px;
-    padding: 10px;
-}
-}*/
-
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
