@@ -238,6 +238,10 @@ li{
 
 /* Styling for the carousel
 Carousel container  */
+.carousel-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
 .carousel {
   position: relative;
   width: 100%;
