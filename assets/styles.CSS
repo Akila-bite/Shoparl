@@ -238,10 +238,10 @@ li{
 
 /* Styling for the carousel
 Carousel container  */
-.carousel {
+/*.carousel {
   width: 80%;
   max-width: 1200px;
-  margin: auto;
+  margin: auto;}*/
 .carousel {
   position: relative;
   width: 100%;
@@ -432,7 +432,7 @@ header{
 nav ul{
     text-align: center;
 }
-nav-li{
+.nav-li{
     display: inline-block;
     margin-right: 10px;
 }
