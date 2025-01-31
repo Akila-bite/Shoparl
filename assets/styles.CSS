@@ -196,7 +196,7 @@ li{
 }
 
 .about-card img {
-  max-width: 100%; /* Makes the image responsive */
+  width: 40%;
   height: auto;
   border-radius: 10px; /* Optional: Adds smooth corners */
 }
