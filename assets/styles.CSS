@@ -190,6 +190,9 @@ li{
   overflow: auto;
   flex: 1; 
 }
+ .about-content {
+  width: 70%;
+}
 
   .about-content h2 {
     margin: 0;
