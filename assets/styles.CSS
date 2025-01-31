@@ -188,15 +188,9 @@ li{
   color: olive;
   font-weight: 350;
   overflow: auto;
+  flex: 1; 
 }
 
-.about-content {
-  flex: 1; 
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; 
-}
   .about-content h2 {
     margin: 0;
     font-size: 1.8rem;
