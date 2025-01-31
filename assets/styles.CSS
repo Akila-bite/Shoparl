@@ -450,5 +450,10 @@ main{
     align-items: flex-start;
     text-align: left;
   }
+  .about-content {
+    width: auto; 
+    flex: 1; 
+    padding-left: 2rem; 
+  }
 }
 
