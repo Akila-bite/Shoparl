@@ -164,18 +164,6 @@ li{
   position: relative;
   overflow:hidden;
  }
-
- /*.about-card {
-    display: flex;
-    align-items: center;
-    background: #fff;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 800px;
-    min-width: 600px;
-  }
-  }*/
  
 .about-card {
   display: flex;
@@ -202,10 +190,10 @@ li{
   font-weight: 500;
 }
 
-/*.about-content {
+.about-content {
     padding: 20px;
     width: 60%;
-  }*/
+  }
   .about-content h2 {
     margin: 0;
     font-size: 1.8rem;
