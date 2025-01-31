@@ -188,7 +188,6 @@ li{
   }*/
  .about-card {
   display: flex;
-  flex-direction: column; /* Default: stack elements vertically */
   align-items: center;
   justify-content: center;
   gap: 1rem; /* Space between elements */
