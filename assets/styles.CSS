@@ -450,11 +450,5 @@ main{
     align-items: flex-start;
     text-align: left;
   }
-
-  .about-card p {
-    max-width: 400px;
-    padding-left: 1rem;
-  }
 }
 
-}
