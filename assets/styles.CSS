@@ -167,6 +167,7 @@ li{
 
  .about-card {
     display: flex;
+    flex-direction: row;
     align-items: center;
     background: #fff;
     border-radius: 8px;
