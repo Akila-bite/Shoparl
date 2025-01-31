@@ -186,7 +186,8 @@ li{
   max-height: 600px;
   margin: 0;
   color: olive;
-  font-weight: 500;
+  font-weight: 350;
+  overflow: auto;
 }
 
 .about-content {
