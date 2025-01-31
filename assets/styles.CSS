@@ -191,9 +191,12 @@ li{
 }
 
 .about-content {
-    padding: 10px;
-    width: 60%;
-  }
+  flex: 1; /* Allows it to take up the remaining space */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers text vertically */
+}
   .about-content h2 {
     margin: 0;
     font-size: 1.8rem;
@@ -448,6 +451,11 @@ main{
     flex-direction: row;
     align-items: flex-start;
     text-align: left;
+  }
+   .about-content {
+    width: auto; 
+    flex: 1; 
+    padding-left: 2rem; 
   }
 
   .about-card p {
