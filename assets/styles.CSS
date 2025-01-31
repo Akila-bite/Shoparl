@@ -398,10 +398,10 @@ input[type=submit]:hover {
 }
 .hero {
   min-height: auto;
-  padding: 50px 20px; /* Add padding for spacing */
+  padding: 50px 20px; 
 }
 .about-card {
-  flex-direction: column;
+  /*flex-direction: column*/;
   text-align: center;
 }
 .about-card img {
@@ -441,7 +441,7 @@ main{
  }
  .about-section {
   display: flex;
-  flex-direction: row !important;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
  }
